@@ -1501,6 +1501,36 @@ Before submitting, check if you have completed all criteria in the project [rubr
 ---
 ## `Monolith to Microservices at Scale`
 ### `Lesson 1: Introduction to Microservices`
+
+Microservices
+Independently-deployed services that communicate with one another through networks.
+
+Monoliths
+Self-contained applications that are deployed as one unit.
+
+Monolith
+•	Utilize a powerful, costlier machine
+•	Codebase is centralized and easy to manage
+•	Code is easily shared across the project
+•	Scoped for worst-case usage across all parts of the application
+Microservice
+•	Utilize smaller, cost-effective machines for what we need
+•	Flexibility to implement logic in a way that makes sense for the team and business
+•	Lean to target a specific business purpose
+•	Interfaces set up for building out other applications
+•	Try not to overcommit and pay for resources that aren't needed
+	
+What is Deploying Code?
+•	Writing code is not enough -- it must also be deployed
+•	Deploying Code is the act of releasing code changes to an environment.
+Deploying Code is Not Easy
+In a professional environment, deploying code is not always simply a copy-and-paste operation. There’s often an automated process that streamlines the deployment of code.
+When we deploy code, we need to consider the impact of factors including:
+•	Bugs and troubleshooting
+•	Downtime
+•	Ease of deployment
+•	Downstream effects including changes in expected behavior
+
 * Deploying Code is Not Easy  
 Deploying changes in code is non-trivial. We have to consider the impact of potential bugs, downtime, ease of deployment, and downstream effects to consumers of the application.
 
