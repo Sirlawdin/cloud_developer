@@ -1608,7 +1608,7 @@ Software was deployed to expensive mainframe computers located in data centers. 
 #### `Tools`
 Please create an account for each of these services:
 * [AWS](https://aws.amazon.com/)
-* [Travis CI](https://travis-ci.com/)
+* [Travis CI](https://travis-ci.com/) or any other CI tools; Jenkins, CircleCI...
 * [GitHub]()
 * [DockerHub](https://hub.docker.com/)
 
